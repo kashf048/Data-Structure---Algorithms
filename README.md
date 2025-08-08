@@ -338,3 +338,47 @@ Heap Sort	O(n log n)	O(n log n)	❌	Priority queues
 Counting Sort	O(n + k)	O(n + k)	✅	Small range integers
 Radix Sort	O(nk)	O(nk)	✅	Large numbers
 
+
+
+🔍 Searching Algorithms in Java
+Searching algorithms help find an element within a data structure. Here, we'll cover common searching algorithms with their implementations in Java.
+
+1️⃣ Types of Searching Algorithms
+Searching can be classified into two main types:
+
+🔹 Linear Search (O(n))
+✔ Sequential Search
+
+🔹 Binary Search (O(log n))
+✔ Iterative Binary Search
+✔ Recursive Binary Search
+
+🔹 Advanced Search Algorithms
+✔ Jump Search (O(√n))
+✔ Interpolation Search (O(log log n))
+✔ Exponential Search (O(log n))
+
+🔥 Comparing Searching Algorithms
+Algorithm	Best Case	Worst Case	Works on Sorted?	Use Case
+Linear Search	O(1)	O(n)	❌ No	Small arrays or unsorted data
+Binary Search	O(1)	O(log n)	✅ Yes	Large sorted arrays
+Jump Search	O(1)	O(√n)	✅ Yes	Faster than linear but not as good as binary
+Interpolation Search	O(1)	O(n)	✅ Yes	Sorted & uniformly distributed data
+Exponential Search	O(1)	O(log n)	✅ Yes	Large unbounded/infinite arrays
+
+
+🔠 String Manipulation Algorithms in Java
+String manipulation is fundamental in programming, especially in data processing, pattern matching, and text transformations. Below are some common string manipulation algorithms with their Java implementations.
+
+🚀 Summary
+Algorithm	Best Case	Worst Case	Usage
+Reverse a String	O(1)	O(n)	Basic string operations
+Check Palindrome	O(1)	O(n)	Verifying symmetry
+First Non-Repeating Char	O(1)	O(n)	Finding unique characters
+Reverse Words	O(n)	O(n)	Sentence processing
+Remove Duplicates	O(n)	O(n)	String cleaning
+Count Character Occurrences	O(1)	O(n)	Text analysis
+Anagram Check	O(n log n)	O(n log n)	Comparing words
+Longest Common Prefix	O(n * m)	O(n * m)	String matching
+Longest Palindromic Substring	O(n)	O(n²)	Finding mirrored substrings
+
